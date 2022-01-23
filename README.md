@@ -7,7 +7,7 @@ Quick start utility scripts & guide to run nodle staker validator's node.
 | Id | Scripts | Discp |
 | --- | --- | --- |
 | 1. | launch-validator-node.sh | Launch the Validator node |
-| 2. | inject-session-key.sh | Inject the session key, allows the node to participate in block production |
+| 2. | inject-session-key.sh | Inject the session key, allows the validator node to participate in block production |
 | 3. | init-env.sh | Allows to configure user specific env parameters, script 1 & 2 internally use it. |
 
 ## Pre-Steps
@@ -30,7 +30,7 @@ Quick start utility scripts & guide to run nodle staker validator's node.
 
 3, Let's wait for the node to get complete with storage sync.
 
-4, Ensure no session keys of validator adress.
+4, Ensure no session keys for the validator adress.
 
 ![](./docs/images/snapshot-03.png)
 
