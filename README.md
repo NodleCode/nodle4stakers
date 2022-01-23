@@ -12,8 +12,11 @@ Quick start utility scripts & guide to run nodle staker validator's node.
 
 ## Pre-Steps
 
-1. Ensure nodle address planning to get added to validator pool, has enough nodle cash, minimum 5 nodle.
-2. Ensure Docker is installed.
+1. Ensure Docker is installed.
+
+2. Ensure nodle address planning to get added to validator pool, has enough nodle cash, minimum 5 nodle.
+
+![](./docs/images/snapshot-02.png)
 
 ## Main-Steps
 
@@ -23,13 +26,30 @@ Quick start utility scripts & guide to run nodle staker validator's node.
 
 4, Launch browser & open web app `https://nodleprotocol.io/`, & choose `Local Node`
 
-![](https://i.imgur.com/P9cdAFp.png)
+![](./docs/images/snapshot-01.png)
 
 3, Let's wait for the node to get complete with storage sync.
 
-4, Add validator address to staker's validator pool, and specify the validator bond value (script uses docker runtime).
+4, Ensure no session keys of validator adress.
+
+![](./docs/images/snapshot-03.png)
+
+4, Add validator address to staker's validator pool, and specify the validator bond value.
+
+![](./docs/images/snapshot-04.png)
+
+**Status Check**
+
+![](./docs/images/snapshot-05.png)
+
+![](./docs/images/snapshot-06.png)
 
 5, Run `./inject-session-key.sh` - script inject's session key for the configured validator address.
 
-6, Wait for current session to get completed. your node will be selected as validator for the next new session,
-   if your address is one among top-10 in staking value.
+![](./docs/images/snapshot-07.png)
+
+**Status Check**
+
+![](./docs/images/snapshot-08.png)
+
+6, Wait for current session to get completed. your node will be selected as validator for the next new session, if your address is one among top-10 in staking value.
